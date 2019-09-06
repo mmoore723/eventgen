@@ -54,4 +54,4 @@ def _set_release_version():
 __version__ = _get_version(versionfile='version.json')
 
 if __name__ == "__main__":
-    print __version__
+    print(__version__)
